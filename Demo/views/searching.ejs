@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>알고찾자</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <h1 id="jino"><%= userInput %> 를 찾는 중</h1>
+    </div>
+    <div class="body">
+     
+    </form>
+    </div>
+
+    <script>
+      $(function(){
+        $.ajax({
+            type:'POST',
+            url:"/let",
+            dataType:'text', 
+            data: {'userInput':'<%= userInput %>'},
+            error: async function(){
+                alert("에러가 발생했습니다.");
+            },
+            success:async function(data){
+                const obj = JSON.parse(data);
+                console.log(obj.status);
+            }
+        });
+
+      });
+        
+    </script>
+
+  </body>
+
+</html>
