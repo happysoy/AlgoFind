@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+
+span{
+	font-weight: bold;
+	font-family: 'Source Sans Pro', sans-serif;	
+	font-size: 50px;
+}
+
+p span:nth-child(1){
+	color:#4285F4;
+}
+
+p span:nth-child(2){
+	color:#EA4335;
+}
+
+p span:nth-child(3){
+	color:#FBBC05;
+}
+
+p span:nth-child(4){
+	color:#34A853;
+} 
+
+h1 {
+	font-weight: bold;
+	font-family: 'Times New Roman';	
+	font-size: 40px;
+}
+p.title {
+	font-weight: bold;
+	font-family: 'Times New Roman';	
+	font-size: 20px;
+}
+p.detail a {
+	font-weight: bold;
+	font-family: 'Times New Roman';	
+	font-size: 18px;
+	color:gray;
+	padding-left:20px;
+	text-decoration: underline;
+}

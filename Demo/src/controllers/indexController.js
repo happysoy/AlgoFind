@@ -50,7 +50,7 @@ exports.let = async function(req, res){
 }
 
 exports.info = async function(req, res){
-    //return res.render("info.ejs");
+    return res.render("info.ejs");
 }
 
 exports.domestic = async function(req, res){

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+	margin: 40px;
+}
+
+.flex-container {
+	display:flex;
+}
+
+.abroad {
+	margin-left: 300px;
+}
+
+.abroad2 {
+	margin: 80px;
+}
