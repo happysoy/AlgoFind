@@ -1,16 +1,15 @@
-
 @charset "UTF-8";
 
 .navbar{
-    height: 70px;
+	height: 70px;
 }
 
 .main-menu{
-    width: 100%;
+	width: 100%;
 }
 
 .main-menu li{
-    padding: 10px 20px;
+	padding: 10px 20px;
 }
 
 .main-menu a {
@@ -21,55 +20,64 @@
 }
 
 .main-menu a:hover {
-	color: #fab700e3;	
+	color: #4285F4;	
 }
 
 .search-form{
-    margin: 0 auto; 
+	margin: 0 auto; 
 	position: relative;
 	align-items: center;
 	width: 40vw;
 }
-
+	
 	.search-form i{
-        color: #AAAAAA;
+		color: #AAAAAA;
 		position: absolute;
 		left: 15px;
 		z-index: 1;
 	}
-    
+
 	.search-form input{
-        box-shadow: 1px 1px 1px 1px #AAAAAA;
+		box-shadow: 1px 1px 1px 1px #AAAAAA;
 		padding-left: 50px;
 		overflow: auto;
 	}
 
 	.search-form button{
-        display: none;
+		display: none;
 	}
-    
-    span{
-        font-weight: bold;
+
+#subLogo{
+    font-family: 'Handlee', cursive;
+    font-size:18px;
+}
+
+span{
+	font-weight: bold;
 	font-family: 'Source Sans Pro', sans-serif;	
-	font-size: 50px;
+	font-size: 72px;
 }
 
 p span:nth-child(1){
-    color:#4285F4;
+    padding: 0 2.5px;
+	color:#4285F4;
 }
 
 p span:nth-child(2){
+    padding: 0 2.5px;
 	color:#EA4335;
 }
 
 p span:nth-child(3){
-    color:#FBBC05;
+    padding: 0 2.5px;
+	color:#FBBC05;
 }
 
 p span:nth-child(4){
-    color:#34A853;
-}  
+    padding: 0 2.5px;
+	color:#34A853;
+}
 
 .result-form {
-    background-color: #E5E5E5;
-} 
+	background-color: #E5E5E5;
+}

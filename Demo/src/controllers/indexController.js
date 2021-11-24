@@ -48,3 +48,15 @@ exports.let = async function(req, res){
     })
     
 }
+
+exports.info = async function(req, res){
+    //return res.render("info.ejs");
+}
+
+exports.domestic = async function(req, res){
+    return res.render("domestic.ejs");
+}
+
+exports.abroad = async function(req, res){
+    return res.render("abroad.ejs");
+}
