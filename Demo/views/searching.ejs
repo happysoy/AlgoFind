@@ -18,8 +18,10 @@
       <h1 id="jino"><%= userInput %> 를 찾는 중</h1>
     </div>
     <div class="body">
-     
-    </form>
+      <div class="container">
+
+      </div>
+ 
     </div>
 
     <script>
@@ -34,7 +36,17 @@
             },
             success:async function(data){
                 const obj = JSON.parse(data);
-                console.log(obj.status);
+                const msg = document.querySelector('.container');
+                //status 따로둬서 데이터 없는 경우 처리할 것
+                  msg.innerHTML=`
+                    <p id="data_flag">찾으시는 데이터가 존재합니다</p>
+                    <p id="data_types">${obj.result[0]} </p>
+                    <p id="data_title">${obj.result[1]} </p>
+                    <p id="data_author">${obj.result[2]} </p>
+                    <p id="data_company">${obj.result[3]} </p>
+                    <p id="data_date">${obj.result[4]} </p>
+                  `
+                
             }
         });
 

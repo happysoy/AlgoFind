@@ -40,11 +40,9 @@ exports.let = async function(req, res){
         }
         else{
             console.log("flask로부터 받아온 정보 >> ", result);
-            let json = JSON.parse(result);
-
-            const data = { message: "from flask", status: "success", data:{json } };
-            res.send(data);
-            
+            //data가 있으면 status =200, 데이터 없을 경우 status 처리할 것
+       
+            res.send(result);
         }
         
     })
