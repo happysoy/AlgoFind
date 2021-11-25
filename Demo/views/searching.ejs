@@ -67,7 +67,7 @@
             success:async function(data){
               const obj = JSON.parse(data);
               const msg = document.querySelector('.result-form');
-              if (obj.result ===null){
+              if (obj.result ===-1){
                 msg.innerHTML=`
                     <p id="data_flag">찾으시는 데이터가 존재하지 않습니다</p>
                   `
