@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    margin: 40px;
+    margin: 40px ;
 }
 
 a{
@@ -28,15 +28,31 @@ hr{
 
 
 .logo {
-	display:flex;
-	justify-content: center;
+	/* display:flex;
+	justify-content: center; */
 	position:relative;
-	margin-top: 50px;
+	margin: 50px auto 0 auto;
 	padding: 10px 20px;
 }
+
+p{
+	display:flex;
+	justify-content: center;
+}
+
+.search-order{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	/* padding-right: 100px; */
+}
+
+	.search-order input{
+		margin: 5px 5px 5px 10px;
+	}
 
 .result-form{
 	margin: 5vh auto;
 	width: 45vw;
 	height: 40vh;
-} 
+}

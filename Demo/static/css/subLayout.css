@@ -47,6 +47,17 @@ p{
     height: fit-content;
 }
 
+.search-order{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	/* padding-right: 100px; */
+}
+
+	.search-order input{
+		margin: 5px 5px 5px 10px;
+	}
+
 .result-form{
 	margin: 5vh auto;
 	width: 45vw;

@@ -78,6 +78,11 @@ p span:nth-child(4){
 	color:#34A853;
 }
 
+.search-order{
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 25px;
+}
+
 .result-form {
 	background-color: #E5E5E5;
 }

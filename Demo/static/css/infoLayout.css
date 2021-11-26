@@ -4,14 +4,18 @@ body{
 	margin: 40px;
 }
 
+.navbar{
+    justify-content: center;
+}
+
 .flex-container {
+    /* margin-top: 25vh; */
+    margin: 40px 0;
+    position: relative;
 	display:flex;
+    justify-content: space-evenly;
 }
 
-.abroad {
-	margin-left: 300px;
-}
-
-.abroad2 {
-	margin: 80px;
+details{
+    padding: 5px 15px;
 }

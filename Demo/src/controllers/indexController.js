@@ -1,25 +1,31 @@
-const indexDao = require("../dao/indexDao");
 var request = require('request');
 
+
+//메타버스(Metaverse)세계와 우리의 미래
 exports.main = async function(req, res){
     return res.render("main.ejs");
 }
 
 exports.searching = async function(req, res){
     console.log("검색어 입력 >> ", req.query.reportTitle);
+    console.log("선택 >> ", req.query.algorithm);
+    
     const userInput = req.query.reportTitle;
-    return res.render("searching.ejs", {userInput});
+    const checked = req.query.algorithm;
+    return res.render("searching.ejs", {userInput, checked});
 }
 
 exports.let = async function(req, res){
     const file_name=  req.body.userInput; //string
-
+    const file_checked = req.body.userChecked;
     const YoloResult = (callback)=>{
         const options = {
             method: 'POST',
             uri: "http://127.0.0.1:5000/test",
             qs: {
-                file_name: file_name
+                file_name: file_name,
+                file_checked: file_checked
+        
             }
         }
 
@@ -40,8 +46,6 @@ exports.let = async function(req, res){
         }
         else{
             console.log("flask로부터 받아온 정보 >> ", result);
-            //data가 있으면 status =200, 데이터 없을 경우 status 처리할 것
-       
             res.send(result);
         }
         
