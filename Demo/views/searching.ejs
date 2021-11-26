@@ -52,7 +52,7 @@
       탐색 알고리즘 선택: 
       <input type="radio" id="citation" name="algorithm" value="citation">인용많은순
       <input type="radio" id="alphabet_order" name="algorithm" value="alphabet_order">가나다순
-      <input type="radio" id="ex" name="algorithm" value="ex">ㅇㅇ순
+      <input type="radio" id="ex" name="algorithm" value="ex">키워드입력
     </div>
 
   </form>
@@ -66,7 +66,7 @@
           $('input:radio[name="algorithm"][value="alphabet_order"]').prop('checked', true);
         }else if(`<%= checked %>` === "all_ex" ||`<%= checked %>` === "domestic_ex" ||`<%= checked %>` === "abroad_ex"){
           $('input:radio[name="algorithm"][value="ex"]').prop('checked', true);
-        }else if(`<%= checked %>` === "all_citation" ||`<%= checked %>` === "domestic_citation" || `<%= checked %>` === "aborad_citation"){
+        }else if(`<%= checked %>` === "all_citation" ||`<%= checked %>` === "domestic_citation" || `<%= checked %>` === "abroad_citation"){
           $('input:radio[name="algorithm"][value="citation"]').prop('checked', true);
         }
         var listVar = `<%=checked %>`;
