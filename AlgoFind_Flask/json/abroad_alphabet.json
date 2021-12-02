@@ -1,0 +1,25 @@
+[
+    [
+        "EBSCOhost_ASC", "https://www.ebsco.com/" 
+    ],
+
+    [
+        "JSTOR_Archive", "https://www.jstor.org/"
+    ],
+
+    [
+        "ProQuest_Central", "https://www.proquest.com/"
+    ],
+
+    [
+        "science_direct", "https://www.sciencedirect.com/"
+    ],
+
+    [
+        "wiley", "https://onlinelibrary.wiley.com/" 
+    ],
+    [
+        "google_scholar", "https://scholar.google.co.kr/"
+    ]
+
+]

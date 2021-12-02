@@ -1,0 +1,46 @@
+[
+    [
+        "ASSEMBLY", "https://www.nanet.go.kr/main.do"
+    ],
+
+    [
+        "DBPIA", "https://www.dbpia.co.kr/"
+    ],
+
+    [
+        "EBSCOhost_ASC", "https://www.ebsco.com/" 
+    ],
+
+    [
+        "google_scholar", "https://scholar.google.co.kr/"
+    ],
+
+    [
+        "JSTOR_Archive", "https://www.jstor.org/"
+    ],
+
+    [
+        "KCI", "https://www.kci.go.kr/" 
+    ],
+
+    [
+        "KISS", "https://kiss.kstudy.com/index.asp" 
+    ],   
+
+    [
+        "ProQuest_Central", "https://www.proquest.com/"
+    ],
+
+    [
+        "RISS", "https://www.riss.kr/"
+    ],
+
+    [
+        "science_direct", "https://www.sciencedirect.com/"
+    ],
+
+    [
+        "wiley", "https://onlinelibrary.wiley.com/" 
+    ]
+    
+]

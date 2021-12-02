@@ -1,0 +1,42 @@
+[
+
+    [
+        "RISS", "https://www.riss.kr/" 
+    ],
+
+    [
+        "DBPIA", "https://www.dbpia.co.kr/"
+    ],
+
+    [
+        "ProQuest_Central", "https://www.proquest.com/"
+    ],
+
+    [
+        "ASSEMBLY", "https://www.nanet.go.kr/main.do"
+    ],
+
+    [
+        "KCI", "https://www.kci.go.kr/" 
+    ],
+
+    [
+        "KISS", "https://kiss.kstudy.com/index.asp" 
+    ],   
+   
+    [
+        "JSTOR_Archive", "https://www.jstor.org/"
+    ],
+
+    [
+        "wiley", "https://onlinelibrary.wiley.com/" 
+    ],
+
+    [
+        "EBSCOhost_ASC", "https://www.ebsco.com/" 
+    ],
+    [
+        "google_scholar", "https://scholar.google.co.kr/"
+    ]
+
+]
