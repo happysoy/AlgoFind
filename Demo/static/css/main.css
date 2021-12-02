@@ -80,4 +80,11 @@ p span:nth-child(4){
 
 .result-form {
 	background-color: #E5E5E5;
+ }
+ 
+.result-form p{
+	background-color: #E5E5E5;
+	line-height:160%;
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 25px;
 }

@@ -63,3 +63,8 @@ p{
 	width: 45vw;
 	height: 40vh;
 }
+
+.result-form p{
+	margin: 5vh auto;
+	padding: 25px 40px;
+ }

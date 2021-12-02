@@ -47,12 +47,16 @@ p{
 	/* padding-right: 100px; */
 }
 
-	.search-order input{
-		margin: 5px 5px 5px 10px;
-	}
+.search-order input{
+	margin: 5px 5px 5px 10px;
+}
 
 .result-form{
 	margin: 5vh auto;
 	width: 45vw;
 	height: 40vh;
+}
+
+.result-form p{
+	padding: 25px 40px;
 }
